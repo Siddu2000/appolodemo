@@ -61,7 +61,7 @@ const Nav = () => {
         <div>
           <img
             src="https://www.tiger-one.eu/media/logo/websites/1/tigerone-logo.png"
-            className="h-[42px]"
+            className="h-[42px] cursor-pointer"
           />
         </div>
         <div className="flex items-center  bg-[#f5f5f5]  h-[2rem] rounded">

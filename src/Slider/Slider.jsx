@@ -11,6 +11,8 @@ const Sliders = () => {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2500,
+    rtl:true,
+  
   };
   return (
     <>

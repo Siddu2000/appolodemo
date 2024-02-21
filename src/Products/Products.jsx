@@ -65,7 +65,7 @@ const Products = () => {
         ({ image, id, stock_status, sku, price_range }) => (
           <div
             key={id}
-            className="flex flex-col w-72  bg-slate-50 rounded py-4"
+            className="flex flex-col w-72  bg-slate-50 rounded py-4 cursor-pointer"
           >
             <img src={image.url} className="w-[100%] h-72" />
             <h5 className="right-0 ml-[12rem] text-green-800 font-bold text-sm px-2 py-1 mt-2 bg-green-100">
